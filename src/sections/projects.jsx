@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import SectionTitle from "../components/SectionTitle";
 import ProjectCard from "../components/ProjectCard";
-import projects from "../data/Projects";
+import projects from "../data/projects";
 
 function Projects() {
   return (
