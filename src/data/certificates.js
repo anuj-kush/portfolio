@@ -5,7 +5,7 @@ const certifications = [
     title: "Python with SQL ",
     issuer: "Edureka",
     year: "2023",
-    pdf: "/certifications/python-sql.pdf",
+    pdf: `${import.meta.env.BASE_URL}certifications/python-sql.pdf`,
     credential: "",
   },
   {
@@ -13,7 +13,7 @@ const certifications = [
     title: "Data Science & Machine Learning Bootcamp",
     issuer: "Udemy",
     year: "2025",
-    pdf: "/certifications/Data-Science-ml.pdf",
+    pdf: `${import.meta.env.BASE_URL}certifications/Data-Science-ml.pdf`,
     credential: "",
   },
   {
@@ -21,7 +21,7 @@ const certifications = [
     title: "Microsoft Essentials of Python",
     issuer: "Microsoft",
     year: "2022",
-    pdf: "/certifications/Microsoft-python.pdf",
+    pdf: `${import.meta.env.BASE_URL}certifications/Microsoft-python.pdf`,
     credential: "",
   },
 ];

@@ -5,7 +5,7 @@ export const projects = [
     description:
       "A secure online examination platform with AI proctoring, face detection, tab-switch monitoring, timer, AI tutor, and automated evaluation.",
 
-    image: "/images/exam-system.png",
+    image: `${import.meta.env.BASE_URL}images/exam-system.png`,
 
     tech: [
       "Python",
@@ -28,7 +28,7 @@ export const projects = [
     description:
       "RESTful Job Portal backend with JWT authentication, role-based access, job posting, job applications, filtering, and search.",
 
-    image: "/images/job-portal.png",
+    image: `${import.meta.env.BASE_URL}images/job-portal.png`,
 
     tech: [
       "python",
@@ -53,7 +53,7 @@ export const projects = [
     description:
       "Attendance management system using OpenCV and face recognition for automatic attendance marking.",
 
-    image: "/images/attendance.png",
+    image: `${import.meta.env.BASE_URL}images/attendance.png`,
 
     tech: [
       "Python",

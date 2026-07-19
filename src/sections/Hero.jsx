@@ -100,7 +100,7 @@ function Hero() {
           className="flex justify-center"
         >
           <img
-            src="/images/profile.jpg"
+            src={`${import.meta.env.BASE_URL}images/profile.jpg`}
             alt="Anuj Kushwaha"
             className="w-80 h-80 rounded-full object-cover border-4 border-blue-500 shadow-2xl"
           />
